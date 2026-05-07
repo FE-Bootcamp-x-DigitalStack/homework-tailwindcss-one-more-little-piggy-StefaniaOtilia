@@ -1,17 +1,74 @@
 <!doctype html>
-<html lang="en">
+<html lang="ro">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TailwindCSS | One little piggy</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <style text="text/tailwindcss">
-      /* Write your TailwindCSS specific code here (e.g., @theme, @layer base, @layer components) */
-    </style>
-    <link rel="stylesheet" href="./style.css" />
+    <title>Piggy - Clean Flop Ears</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <!-- Write your HTML code and TailwindCSS utilities here -->
-    <h1 class="text-ce">test</h1>
+  <body class="bg-white flex items-center justify-center h-screen">
+    <div class="relative w-[300px] h-[300px]">
+      <div class="absolute top-[8%] left-[18%] w-[105px] h-[105px] z-20">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M90 40 C 90 10, 50 5, 35 15 C 10 25, 5 50, 15 75 C 25 95, 65 95, 80 80 C 95 65, 95 45, 90 40 Z"
+            fill="#FFB5C5"
+            stroke="black"
+            stroke-width="4"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+
+      <div
+        class="absolute top-[8%] right-[18%] w-[105px] h-[105px] z-20 scale-x-[-1]"
+      >
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M90 40 C 90 10, 50 5, 35 15 C 10 25, 5 50, 15 75 C 25 95, 65 95, 80 80 C 95 65, 95 45, 90 40 Z"
+            fill="#FFB5C5"
+            stroke="black"
+            stroke-width="4"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+
+      <div
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[225px] h-[220px] bg-[#FFB5C5] border-[4px] border-black rounded-[50%_50%_48%_48%] z-10"
+      >
+        <div
+          class="absolute top-[32%] left-[32%] w-5 h-2 border-t-[3px] border-black rounded-full -rotate-12"
+        ></div>
+        <div
+          class="absolute top-[32%] right-[32%] w-5 h-2 border-t-[3px] border-black rounded-full rotate-12"
+        ></div>
+
+        <div
+          class="absolute top-[42%] left-[30%] w-[30px] h-[30px] bg-black rounded-full flex items-start justify-end p-1.5"
+        >
+          <div class="w-2.5 h-2.5 bg-white rounded-full"></div>
+        </div>
+        <div
+          class="absolute top-[42%] right-[30%] w-[30px] h-[30px] bg-black rounded-full flex items-start justify-start p-1.5"
+        >
+          <div class="w-2.5 h-2.5 bg-white rounded-full"></div>
+        </div>
+
+        <div
+          class="absolute top-[55%] left-[11%] w-12 h-7 bg-[#F49EB2] rounded-full opacity-60"
+        ></div>
+        <div
+          class="absolute top-[55%] right-[11%] w-12 h-7 bg-[#F49EB2] rounded-full opacity-60"
+        ></div>
+
+        <div
+          class="absolute top-[58%] left-1/2 -translate-x-1/2 w-[98px] h-[72px] bg-[#F48FB1] border-[4px] border-black rounded-[45%] flex items-center justify-center gap-4"
+        >
+          <div class="w-[15px] h-[22px] bg-black rounded-full"></div>
+          <div class="w-[15px] h-[22px] bg-black rounded-full"></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
